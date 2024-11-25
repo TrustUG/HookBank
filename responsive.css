@@ -1,0 +1,91 @@
+@media (max-width: 778px) {
+  main .hero .top .content .big-texts h1 {
+    font-size: 37px;
+    line-height: 50px;
+  }
+
+  main .hero .bottom .box h3 {
+    font-size: 23px;
+    width: 105px;
+  }
+
+  p {
+    color: var(--para-color);
+    font-size: 13px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 732px) {
+  header .header-cont .navs .menu {
+    display: flex;
+  }
+
+  header .header-cont .navs .desktop {
+    display: none;
+  }
+
+  header .header-cont .navs .mobile {
+    display: flex;
+  }
+
+  main .hero .top {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  main .hero .top .content .big-texts .top .get-started {
+    display: none;
+  }
+
+  main .hero .top .imagecont {
+    gap: 15px;
+  }
+
+  main .hero .top .imagecont #get-started {
+    display: flex;
+  }
+
+  main .hero .bottom {
+    margin: 60px auto 0 auto;
+  }
+
+  main .hero .bottom .bars-botoom {
+    display: none;
+  }
+
+  main .hero .bottom .box {
+  }
+
+  main .hero .bottom .box h3 {
+    font-size: 25px;
+  }
+
+  main .busness {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  main .billing {
+    flex-direction: column;
+  }
+
+  main .card-deal {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  main .testmonioal .top {
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+  }
+
+  main .claints .trying-box .amin-cont {
+    flex-direction: column;
+    align-items: start;
+  }
+}
